@@ -32,13 +32,13 @@ The web-service will start running at <http://localhost:8000>.
 
 The app defines following CRUD APIs.
 
-**1. Add to cart**                  GET api/v1/shoppingcart/addcart/{userid}/products/{productid}
-**2. view cart**                    GET    viewcart/{cartid}
-**3. delete a product from cart**   DELETE    deleteproduct/{cartid}/product/{productid}
-**4. delete cart**                  DELETE   deletecart/{cartid}
-**5. search a product by id**       GET    api/v1/search/searchid/{productid}
-**6. search a product by category** GET api/v1/search/searchcategory/{productcategory}   
-**7. search a product by name**     GET    api/v1/search/searchname/{productname}
+1. Add to cart                    GET api/v1/shoppingcart/addcart/{userid}/products/{productid}
+2. view cart                      GET    viewcart/{cartid}
+3. delete a product from cart**   DELETE    deleteproduct/{cartid}/product/{productid}
+4. delete cart**                  DELETE   deletecart/{cartid}
+5. search a product by id**       GET    api/v1/search/searchid/{productid}
+6. search a product by category** GET api/v1/search/searchcategory/{productcategory}   
+7. search a product by name**     GET    api/v1/search/searchname/{productname}
     
    
 You can test them using postman or any other rest client.
